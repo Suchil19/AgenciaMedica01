@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!--PWA-->
+  <link rel="manifest" href="./manifest.json"> 
+  <title>Agencia Medica</title>
+  <link rel="shortcut icon" type="image/png" href="./img/inicio/LogoHumanCare.png">
+  <!--BOOTSTRAP-->
+  <link rel='stylesheet' href='https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css'>
+  <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,700,700i" rel="stylesheet">
+  <link rel="stylesheet" href="./css/style.css">
+  
+  
+  <!--LO AGREGUE PARA LOS ICONOS-->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap" rel="stylesheet">
+  <!--Carousel-->
+  <!--Owl2-->
+  <link rel="stylesheet" href="./css/owl.carousel.min.css" type="text/css">
+  <!-- AOS Library -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" /> 
+
+  <!--Carousel-->
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.4.6/css/swiper.css'>
+<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.4.6/css/swiper.min.css'>
+  <!--Termina Crousel-->
+  
+
+  <!-- Bootstrap core JavaScript -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</head>
+<body ondragstart="return false" onselectstart="return false" oncontextmenu="return false">
+<div id="preloader"></div>
+
+
+ <header class="header">
+    <div class="container">
+        <div class="row align-items-center justify-content-between">
+            <div class="logo">
+                <img class="logo-img" src="./img/logo.png">&nbsp;
+               <!--a href="#">Suchil</a-->
+            </div>
+            <button type="button" class="nav-toggler">
+               <span></span>
+            </button>
+            <nav class="nav">
+               <ul>
+                  <li><a href="#" class="active">Inicio</a></li>
+                  <li><a href="#">Acerca de</a></li>
+                  <li><a href="#">Servicios</a></li>
+                  <li><a href="#">Casos de éxito</a></li>
+                  <li><a href="#">Contacto</a></li>
+               </ul>
+            </nav>
+        </div>
+    </div>
+ </header>
+<!-- about -->
+<div class="about">
+  <a class="bg_links social portfolio" href="#" target="_blank">
+     <span class="icon"></span>
+  </a>
+  <a class="bg_links social dribbble" href="#" target="_blank">
+     <span class="icon"></span>
+  </a>
+  <a class="bg_links social linkedin" href="#" target="_blank">
+     <span class="icon"></span>
+  </a>
+  <a class="bg_links logo"></a>
+</div>
+<!-- end about -->
+
+<div class="swiper-container">
+  <!-- Additional required wrapper -->
+  <div class="swiper-wrapper">
+  <!-- Slider -->
+     <!-- Slide1 -->
+     <div class="swiper-slide" style="background-image: url(https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80)">
+        <div class="slide-text">
+           <h1>Titulo 01</h1>
+           <p>Here goes a little description to fill this tiny empty space.</p>
+           <button class="btn">read more</button>
+        </div>
+     </div>
+     <!-- END Slide1 -->
+     <!-- Slide2 -->
+     <div class="swiper-slide" style="background-image: url(https://images.unsplash.com/photo-1537368910025-700350fe46c7?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1470&q=80)">
+        <div class="slide-text">
+           <h1>Titulo 02</h1>
+           <p>And another little description.</p>
+           
+        </div>
+     </div>
+     <!-- END Slide2 -->
+     <!-- Slide3 -->
+     <div class="swiper-slide" style="background-image: url(https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80)">
+      <div class="slide-text">
+         <h1>Titulo 03</h1>
+         <p>Here goes a little description to fill this tiny empty space.</p>
+         <button class="btn">read more</button>
+      </div>
+   </div>
+     <!-- END Slide3 -->
+     <!-- Slide4 -->
+     <div class="swiper-slide" style="background-image: url(https://images.unsplash.com/photo-1537368910025-700350fe46c7?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1470&q=80)">
+      <div class="slide-text">
+         <h1>Titulo 04</h1>
+         <p>And another little description.</p>
+         
+      </div>
+   </div>
+     <!-- END Slide4 -->
+
+  </div>
+  <!-- If we need pagination -->
+  <div class="swiper-pagination"></div>
+
+  <!-- If we need navigation buttons -->
+  <div class="swiper-button-prev"><span></span></div>
+  <div class="swiper-button-next"><span></span></div>
+
+</div>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+<div class="container">
+<main>
+  <section class="intro">
+      <div class="intro-img"> <img src="https://hannahshiels.github.io/front-end-mentor/fylo-dark-theme-landing-page-master/images/illustration-intro.png" alt="illustration-intro"></div>
+      <div class="intro-content">
+          <h1>Agencia de marketing médico</h1>
+
+          <p class="lg-p mt-2"> Quieres posicionarte en internet?
+          </p>
+          <button class="btn mt-2">Comencemos</button></div>
+
+
+  </section>
+  <section class="features">
+
+      <div class="features-item">
+          <div class="features-item-head"> <img src="https://hannahshiels.github.io/front-end-mentor/fylo-dark-theme-landing-page-master/images/icon-access-anywhere.svg" alt=""> </div>
+          <div class="features-item-body  mt-2">
+              <h3>Sitio WEB para móviles y computadora</h3>
+
+              <p>The ability to use a smartphone, tablet, or computer to access your account means your files follow you everywhere.</p>
+          </div>
+      </div>
+
+      <div class="features-item">
+          <div class="features-item-head"> <img src="https://hannahshiels.github.io/front-end-mentor/fylo-dark-theme-landing-page-master/images/icon-security.svg" alt=""> </div>
+          <div class="features-item-body mt-2">
+              <h3>Somos expertos</h3>
+              <p> 2-factor authentication and user-controlled encryption are just a couple of the security features we allow to help secure your files.</p>
+          </div>
+
+      </div>
+      <div class="features-item">
+          <div class="features-item-head"> <img src="https://hannahshiels.github.io/front-end-mentor/fylo-dark-theme-landing-page-master/images/icon-collaboration.svg" alt=""> </div>
+          <div class="features-item-body  mt-2">
+              <h3>Sabemos posicionarte</h3>
+              <p> Securely share files and folders with friends, family and colleagues for live collaboration. No email attachments required.</p>
+          </div>
+
+      </div>
+      <div class="features-item">
+          <div class="features-item-head"> <img src="https://hannahshiels.github.io/front-end-mentor/fylo-dark-theme-landing-page-master/images/icon-any-file.svg" alt=""> </div>
+          <div class="features-item-body  mt-2">
+              <h3>Creación de contenido</h3>
+              <p> Whether you're sharing holidays photos or work documents, Fylo has you covered allowing for all file types to be securely stored and shared.</p>
+          </div>
+      </div>
+  </section>
+  <section class="productive">
+      <div class="productive-img"> <img src="https://hannahshiels.github.io/front-end-mentor/fylo-dark-theme-landing-page-master/images/illustration-stay-productive.png" alt=""> </div>
+
+      <div class="productive-content">
+
+          <h2>Todo lo que nesecitas</h2>
+
+          <p class="lg-p"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+            Ex dicta placeat architecto quas natus debitis neque. Incidunt, numquam obcaecati enim ipsum esse natus ipsam quia earum qui nemo magnam culpa. </p>
+
+          <p class="lg-p"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+            Ex dicta placeat architecto quas natus debitis neque. Incidunt, numquam obcaecati enim ipsum esse natus ipsam quia earum qui nemo magnam culpa.
+          </p>
+          <p class="lg-p"> <a class="content-link" href="#">Nuestra experiencia <i class="fas fa-arrow-alt-circle-right"></i></a> </p>
+      </div>
+  </section>
+
+  <section class="testimonial">
+
+      <div class="testimonial-item">
+          <div class="testimonial-item-text">
+              <p>Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has become a well-oiled collaboration machine.</p>
+          </div>
+          <div class="testimonial-item-reviewer">
+              <div class="testimonial-item-reviewer-img"> <img src="https://hannahshiels.github.io/front-end-mentor/fylo-dark-theme-landing-page-master/images/profile-1.jpg" alt=""></div>
+              <div class="ml-1 testimonial-item-reviewer-text">
+                  <h4>Alma</h4>
+                  <p>Founder & CEO, Huddle</p>
+              </div>
+          </div>
+      </div>
+
+
+      <div class="testimonial-item">
+          <div class="testimonial-item-text">
+              <p>Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has become a well-oiled collaboration machine.</p>
+          </div>
+          <div class="testimonial-item-reviewer">
+              <div class="testimonial-item-reviewer-img"> <img src="https://hannahshiels.github.io/front-end-mentor/fylo-dark-theme-landing-page-master/images/profile-2.jpg" alt=""></div>
+              <div class="ml-1 testimonial-item-reviewer-text">
+                  <h4> Luis </h4>
+                  <p>Founder & CEO, Huddle</p>
+              </div>
+          </div>
+      </div>
+
+      <div class="testimonial-item">
+          <div class="testimonial-item-text">
+              <p> Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has become a well-oiled collaboration machine.</p>
+          </div>
+          <div class="testimonial-item-reviewer">
+              <div class="testimonial-item-reviewer-img"> <img src="https://hannahshiels.github.io/front-end-mentor/fylo-dark-theme-landing-page-master/images/profile-3.jpg" alt=""></div>
+              <div class="ml-1 testimonial-item-reviewer-text">
+                  <h4>Sayra</h4>
+                  <p>Founder & CEO, Huddle</p>
+              </div>
+          </div>
+      </div>
+  </section>
+
+
+</main>
+
+</div>
+              
+
+                 
+                 
+                 
+          
+
+ <footer class="footer">
+    <div class="container">
+      <div class="footer-info">
+        <div class="footer-text">
+          <span class="copyright">©2022 | StarMedical</span>
+          <div class="footer-social">
+            <a href="#" class="footer-social__link"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" class="footer-social__link"><i class="fab fa-instagram"></i></a>
+            <a href="#" class="footer-social__link"><i class="fab fa-youtube"></i></a>
+          </div>
+        </div>
+        <div class="footer-menu">
+          <nav>
+            <a href="#">Aviso de privacidad</a>
+            <a href="#">Nosotros</a>
+            <a href="#">Servicios</a>
+            <a href="#">Casos de éxito</a>
+          </nav>
+          <a href="#" class="footer-button">Contacto</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+         <!--TERMINA FOOTER-->
+            
+                <!--FIREBASE SCRIPTS-->
+                <!-- The core Firebase JS SDK is always required and must be listed first -->
+                <script src="https://www.gstatic.com/firebasejs/8.2.7/firebase-app.js"></script>
+            
+              <!-- TODO: Add SDKs for Firebase products that you want to use
+                  https://firebase.google.com/docs/web/setup#available-libraries -->
+              <script src="https://www.gstatic.com/firebasejs/8.2.7/firebase-analytics.js"></script>
+              <script src="https://www.gstatic.com/firebasejs/8.2.7/firebase-auth.js"></script>
+              <script src="https://www.gstatic.com/firebasejs/8.2.7/firebase-firestore.js"></script>
+              
+                <script>
+                   // Your web app's Firebase configuration
+                   var firebaseConfig = {
+                    apiKey: "AIzaSyArCGUcXRLX9ZVG8AcnDoHQwaZlbjx7Sjw",
+                    authDomain: "hospital-san-diego.firebaseapp.com",
+                    projectId: "hospital-san-diego",
+                    storageBucket: "hospital-san-diego.appspot.com",
+                    messagingSenderId: "1005277372228",
+                    appId: "1:1005277372228:web:f910351657f6184fa3c111",
+                    measurementId: "G-7NHRVTSNQS"
+                    };
+            
+                  // Initialize Firebase
+                  firebase.initializeApp(firebaseConfig);
+                  const auth = firebase.auth();
+                  // FireStore base de datos
+                  const fs = firebase.firestore();
+                  firebase.analytics();
+                </script>
+                <!--TERMINA FIREBASE-->
+
+     <!-- PWA -->
+     <script src="./script.js"></script>
+
+
+
+
+     <!-- SLIDER -->
+
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.4.6/js/swiper.js'></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.4.6/js/swiper.min.js'></script>
+  
+
+
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+  <script  src="./js/script.js"></script>
+  <!-- partial>
+  <script src='https://code.jquery.com/jquery-3.2.1.slim.min.js'></script-->
+<script src='https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js'></script>
+<script src='https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js'></script>
+<!-- AOS Script-->
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<!--Carousel-->
+<script  src="./js/owl.carousel.min.js"></script>
+
+</body>
+</html>
